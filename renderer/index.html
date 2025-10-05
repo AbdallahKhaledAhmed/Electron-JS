@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="overflow-hidden">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,8 +7,22 @@
     <title>Screen Capture</title>
   </head>
   <body>
-    <h1 class="bg-blue-700 text-white font-bold text-2xl text-center">
-      Hello World I am a Screen Capture App!
-    </h1>
+    <nav
+      class="text-white bg-gray-600 px-4 py-1 absolute w-full [-webkit-app-region:drag]"
+    >
+      <ul class="flex gap-5">
+        <li>File</li>
+        <li>Edit</li>
+      </ul>
+    </nav>
+    <main>
+      <img
+        id="img"
+        src="../assets/camera.png"
+        alt=""
+        class="w-full h-full cursor-pointer hover:scale-110 transition-transform duration-200 pointer-events-auto"
+      />
+    </main>
+    <script src="./renderer.js"></script>
   </body>
 </html>
