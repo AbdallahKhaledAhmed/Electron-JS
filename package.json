@@ -2,9 +2,10 @@
   "name": "screen-capture",
   "version": "1.0.0",
   "description": "Electron JS screen capturing app",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx @tailwindcss/cli -i ./renderer/input.css -o ./renderer/output.css && electron .",
+    "hot": "nodemon --ext html,css,js --exec npm start"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/AbdallahKhaledAhmed/Electron-JS/issues"
   },
-  "homepage": "https://github.com/AbdallahKhaledAhmed/Electron-JS#readme"
+  "homepage": "https://github.com/AbdallahKhaledAhmed/Electron-JS#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.14",
+    "electron": "^38.2.1",
+    "nodemon": "^3.1.10",
+    "tailwindcss": "^4.1.14"
+  }
 }
