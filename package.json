@@ -1,0 +1,24 @@
+{
+  "name": "screen-capture",
+  "version": "1.0.0",
+  "description": "Electron JS screen capturing app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdallahKhaledAhmed/Electron-JS.git"
+  },
+  "keywords": [
+    "Screen",
+    "Capture",
+    "screenshot"
+  ],
+  "author": "Abdallah Khaled Ahmed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AbdallahKhaledAhmed/Electron-JS/issues"
+  },
+  "homepage": "https://github.com/AbdallahKhaledAhmed/Electron-JS#readme"
+}
