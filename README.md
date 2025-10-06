@@ -57,8 +57,7 @@ The built application will be available in the `dist` directory.
 
 1. Launch the application
 2. Click the capture button or use the keyboard shortcut
-3. Select the area you want to capture
-4. The screenshot will be automatically saved to your default downloads folder
+3. The screenshot will be automatically saved to the app folder in a folder called Screenshots
 
 ## Keyboard Shortcuts
 
