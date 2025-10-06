@@ -62,8 +62,7 @@ The built application will be available in the `dist` directory.
 
 ## Keyboard Shortcuts
 
-- `Ctrl + Shift + S`: Capture screen
-- `Esc`: Cancel capture
+- `Shift + F10`: Capture screen
 
 ## Project Structure
 
